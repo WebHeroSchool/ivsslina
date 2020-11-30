@@ -1,0 +1,30 @@
+.body {
+  font-family: Roboto;
+}
+
+.logo {
+  font-family: "PT Serif", serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.main-content__title {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 66px;
+}
+
+.main-content__subtitle {
+  font-family: Roboto;
+  font-size: 22px;
+}
+
+.main-content__button {
+  font-family: Roboto;
+  font-size: 18px;
+}
