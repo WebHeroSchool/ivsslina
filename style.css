@@ -1,7 +1,6 @@
 
 .body {
   margin: 0px;
-  font-family: Roboto;
 }
 
 .wrapper {
@@ -17,10 +16,32 @@
 .logo {
   display: inline-block;
   margin-right: 63%;
+  position: relative;
   padding: 40px 0;
-  font-family: "PT Serif", serif;
-  font-size: 24px;
-  font-weight: bold;
+  padding-left: 44px;
+  font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  opacity: .7;
+  }
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
 }
 
 .menu {
@@ -39,7 +60,7 @@
 }
 
 .main-content__title {
-  font-family: "PT Serif", serif;
+  font-family: pt_serifregular, arial, helvetica;
   font-weight: bold;
   font-size: 66px;
 }
@@ -50,6 +71,5 @@
 }
 
 .main-content__button {
-  font-family: Roboto;
   font-size: 18px;
 }
