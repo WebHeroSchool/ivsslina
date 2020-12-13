@@ -1,15 +1,12 @@
 
 .body {
   margin: 0px;
-  width: 1920px;
-  height: 1080px;
-
 }
 
 .wrapper {
   margin: auto;
   width: 85%;
-  }
+}
 
 .header {
   display: flex;
@@ -36,7 +33,7 @@
   width: 28px;
   height: 28px;
   opacity: .7;
-  }
+}
 
 .logo__circle_color_dark-blue {
   background: #0056ec;
@@ -101,21 +98,20 @@
 .main {
   padding: 0 63% 220px 0;
   background: top right no-repeat url(img/mainImg.svg);
-  }
+}
 
 .main__title {
   margin: 0 0 40px 0;
   font: bold 66px pt_serifregular, arial, helvetica, sans-serif;
-
 }
 
 .main__title-text_highlight {
   background: #ecF3ff;
 }
+
 .main__subtitle {
   margin: 0 0 40px 0;
   font: 22px Roboto, arial, helvetica, sans-serif;
-
 }
 
 .main__button {
