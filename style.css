@@ -16,7 +16,6 @@
 
 .logo {
   display: inline-block;
-  margin-right: 63%;
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
@@ -42,7 +41,7 @@
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #c8dBfb;
+  background: #c8dbfb;
 }
 
 .menu {
@@ -102,11 +101,11 @@
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 66px pt_serifregular, arial, helvetica, sans-serif;
+  font: bold 66px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
-  background: #ecF3ff;
+  background: #ecf3ff;
 }
 
 .main__subtitle {
