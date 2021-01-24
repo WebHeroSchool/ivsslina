@@ -100,6 +100,7 @@
 }
 
 .main__title {
+  padding-top:195px;
   margin: 0 0 40px 0;
   font: bold 66px pt_serifbold, arial, helvetica, sans-serif;
 }
