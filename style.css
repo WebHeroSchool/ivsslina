@@ -1,24 +1,24 @@
 
 .body {
   margin: 0px;
+
   width: 1920px;
   height: 1080px;
-}
+
 
 .wrapper {
   margin: auto;
-  width: 85%;
+  width: 80%;
 }
 
 .header {
   display: flex;
   justify-content:space-between;
-  margin-bottom: 100px;
+  margin-bottom: 126px;
 }
 
 .logo {
   display: inline-block;
-  margin-right: 63%;
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
@@ -35,7 +35,7 @@
   width: 28px;
   height: 28px;
   opacity: .7;
-  }
+}
 
 .logo__circle_color_dark-blue {
   background: #0056ec;
@@ -99,13 +99,13 @@
 }
 
 .main {
-  padding: 0 63% 220px 0;
+  padding: 5% 63% 220px 0;
   background: top right no-repeat url(img/mainImg.svg);
 }
 
 .main__title {
-  margin: 0 0 40px 0;
-  font: bold 66px pt_serifregular, arial, helvetica, sans-serif;
+  margin: 0 0 35px 0;
+  font: bold 66px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -113,6 +113,7 @@
 }
 
 .main__subtitle {
+  width: 77%;
   margin: 0 0 40px 0;
   font: 22px Roboto, arial, helvetica, sans-serif;
 }
@@ -120,7 +121,8 @@
 .main__button {
   display: inline-block;
   font: 18px Roboto, arial, helvetica, sans-serif;
-  padding: 14px 16px;
+  letter-spacing: 0.15px;
+  padding: 16px 28px;
   color: #fff;
   background: #0056ec;
   border-radius: 4px;
