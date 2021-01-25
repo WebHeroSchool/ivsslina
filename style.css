@@ -1,7 +1,10 @@
 
 .body {
   margin: 0px;
-}
+
+  width: 1920px;
+  height: 1080px;
+
 
 .wrapper {
   margin: auto;
@@ -89,7 +92,8 @@
   opacity: .5;
 }
 
-.menu__item:hover::after, .menu__item_active::after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
