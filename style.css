@@ -161,8 +161,10 @@
   }
 
   .main {
-    padding: 5% 50% 180px 0;
+    padding: 5% 50% 150px 0;
+    background: top right no-repeat url(img/mainImg1366.svg);
   }
+
 
   .main__title {
     margin: 0 0 38px 0;
@@ -180,5 +182,155 @@
   .main__button {
     font: 14px Roboto, arial, helvetica, sans-serif;
   }
+
+}
+
+@media (max-width:1024px) {
+  .wrapper {
+    width: 93%;
+  }
+
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .logo {
+    padding-left: 48px;
+  }
+
+  .logo__circle {
+    left: 1px;
+    top: 48%;
+  }
+
+  .logo__circle_color_blue {
+    left: 11px;
+    top: 56%;
+  }
+
+  .menu__item {
+    margin-right: 26px;
+  }
+
+  .menu__item:last-child {
+    margin-right: 19px;
+  }
+
+  .main {
+    padding: 5% 50% 150px 0;
+    background: top right no-repeat url(img/mainImg1024.svg);
+  }
+
+
+  .main__title {
+    margin: 0 0 38px 0;
+    font: bold 50px pt_serifbold, arial, helvetica, sans-serif;
+    letter-spacing: 0.4px;
+  }
+
+  .main__subtitle {
+    width: 80%;
+    margin: 0 0 40px 0;
+    font: 18px Roboto, arial, helvetica, sans-serif;
+    letter-spacing: 0.1px;
+  }
+
+  .main__button {
+    font: 14px Roboto, arial, helvetica, sans-serif;
+    padding: 13px 20px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .menu {
+    display: none;
+ }
+ .header {
+   margin-bottom: 28px;
+ }
+
+ .logo{
+   bottom: 15px;
+   right: 42px;
+   font-size: 0;
+ }
+
+ .main {
+   padding: 74% 0 0;
+   background-size: 74%;
+   background-position: top center;
+ }
+
+ .main__title {
+   margin-bottom: 44px;
+   font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+ }
+
+ .main__subtitle {
+   margin-bottom: 25px;
+   font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+ }
+
+ .main__button {
+   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+ }
+}
+
+@media (max-width:375x) {
+  .wrapper{
+    width: 80%;
+  }
+
+  .menu_item{
+    display: none;
+  }
+
+  .header{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .logo{
+    bottom: 15px;
+    right: 42px;
+    font-size: 0;
+  }
+
+  .logo__circle {
+    left: 21px;
+    top: 48%;
+    width: 41px;
+    height: 41px;
+  }
+
+  .logo__circle_color_blue {
+    left: 30px;
+    top: 56%;
+  }
+
+  .main{
+    padding: 60% 45px 0 0;
+    background-size: 74% 0 0;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px pt_serifbold, arial, helvetica, sans-serif;
+    letter-spacing: 0.4px;
+  }
+
+  .main__subtitle {
+    margin-bottom: 25px;
+    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+    letter-spacing: 0.1px;
+  }
+
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
+
 
 }
