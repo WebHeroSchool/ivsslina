@@ -128,3 +128,57 @@
 .main__button:hover {
   opacity: .5;
 }
+
+@media (max-width:1366px) {
+  .wrapper {
+    width: 70%;
+  }
+
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .logo {
+    padding-left: 52px;
+  }
+
+  .logo__circle {
+    left: 7px;
+    top: 49%;
+  }
+
+  .logo__circle_color_blue {
+    left: 18px;
+    top: 56%;
+  }
+
+  .menu__item {
+      font: 500 14px/21px Roboto, arial, helvetica, sans-serif;
+  }
+
+  .menu__item:last-child {
+    margin-right: 24px;
+  }
+
+  .main {
+    padding: 5% 50% 180px 0;
+  }
+
+  .main__title {
+    margin: 0 0 38px 0;
+    font: bold 50px pt_serifbold, arial, helvetica, sans-serif;
+    letter-spacing: 0.4px;
+  }
+
+  .main__subtitle {
+    width: 80%;
+    margin: 0 0 40px 0;
+    font: 18px Roboto, arial, helvetica, sans-serif;
+    letter-spacing: 0.2px;
+  }
+
+  .main__button {
+    font: 14px Roboto, arial, helvetica, sans-serif;
+  }
+
+}
